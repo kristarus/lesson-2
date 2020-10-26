@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-heading {
+  margin-top: 73px;
+  text-align: center;
+
+  font-weight: normal;
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+  color: #212121;
+}
+
+.dividing-line {
+  margin: 22px auto;
+  width: 64px;
+  height: 2px;
+
+  background: #ff8b38;
+}
+
+.subtitle {
+  text-align: center;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #86878b;
+}
+
+.conversation-window {
+  float: left;
+}
+
+.text-block {
+  padding: 25px 0 12px 18px;
+  width: 290px;
+  height: 127px;
+
+  color: #86878b;
+  font-family: "Raleway", sans-serif;
+  background: #f5f5f5;
+}
+
+.text-block.middle {
+  margin: 0 98px 0 98px;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 17px solid #f5f5f5;
+}
+
+.triangle-down.first {
+  margin: 0 0 0 25px;
+}
+
+.triangle-down.middle {
+  margin: 0 0 0 123px;
+}
+
+.main-block {
+  width: 1066px;
+  margin: 85px auto;
+}
+
+.photo {
+  float: left;
+  width: 70px;
+  height: 70px;
+  background-image: url(images/avatar.png);
+}
+
+.photo.first {
+  margin-top: 11px;
+}
+
+.photo.middle {
+  margin: 11px 0 0 98px;
+}
+
+.personal-data {
+  float: left;
+}
+.name {
+  width: 95px;
+  height: 23px;
+  margin: 25px 0 0 16px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  color: #333333;
+}
+
+.profession {
+  width: 59px;
+  height: 19px;
+  margin: 1px 0 0 16px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #86878b;
+}
